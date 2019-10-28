@@ -1,0 +1,73 @@
+div.zxf_pagediv{
+	text-align: center;
+	color: #999999;
+	padding: 20px 20px 40px 0;
+}
+div.zxf_pagediv a{
+	text-decoration: none;
+	
+}
+div.zxf_pagediv span,div.zxf_pagediv a{
+	display: inline-block;
+	box-sizing: border-box;
+    margin: 0 5px;
+}
+.zxf_pagediv .current{
+	color: #ffffff;
+	background: #1ABC9C;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+	border-radius: 3px;
+	background: linear-gradient(90deg,#ff5b57,#ffa13b);
+}
+.zxf_pagediv .zxfPagenum{
+	color: #666;
+	background: #fff;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+	margin: 0 5px;
+	border-radius: 3px;
+    border: 1px solid #e7e7e7;
+}
+.zxf_pagediv .nextpage{
+
+	margin: 0 5px;
+}
+.zxf_pagediv .nextbtn,.prebtn,span.disabled{
+	color: #666;
+	background: #fff;
+    width: 68px;
+    height: 32px;
+    line-height: 32px;
+	border-radius: 3px;
+	border: 1px solid #e7e7e7;
+}
+.zxf_pagediv .zxfinput{
+    width: 42px;
+    height: 32px;
+	text-align: center;
+	box-sizing: border-box;
+	border: 1px solid #E6E6E6;
+	margin: 0 12px;
+	border-radius: 3px;
+	color: #666;
+}
+.zxf_pagediv .zxfokbtn{
+	width: 48px;
+	height: 32px;
+	line-height: 32px;
+	border: 1px solid #E6E6E6;
+	margin-left: 10px;
+	cursor:pointer;
+	border-radius: 3px;
+	background: #fff;
+}
+.zxf_pagediv input::-webkit-outer-spin-button,
+.zxf_pagediv input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.zxf_pagediv input[type="number"]{
+  -moz-appearance: textfield;
+}

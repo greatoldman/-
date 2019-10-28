@@ -1,0 +1,2354 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+    margin:0; padding:0;
+}
+html{
+    font-size: 12px;
+}
+body{
+    position:relative;
+    font-family: "PingFang SC",Arial,"微软雅黑","宋体";
+    background-color: #fff;
+    overflow-x: hidden;
+}
+a{
+    border:none;
+    text-decoration: none;
+    color: inherit;
+}
+img{
+    width:auto;
+    height:auto;
+    border:none;}
+ul, ol, li {
+    list-style: none;
+}
+
+.TRS_Editor TABLE{font-family:宋体;font-size:14px;}
+.TRS_Editor{font-family:宋体;font-size:14px;}
+.TRS_Editor P{font-family:宋体;font-size:14px;margin-top:0;margin-bottom:0;line-height:2;}
+.TRS_Editor H1,.TRS_Editor H2,.TRS_Editor H3,.TRS_Editor H4,.TRS_Editor H5,.TRS_Editor H6,.TRS_Editor HR,.TRS_Editor BLOCKQUOTE,.TRS_Editor DL,.TRS_Editor DD,.TRS_Editor DT,.TRS_Editor OL,.TRS_Editor UL,.TRS_Editor LI,.TRS_Editor PRE,.TRS_Editor CODE,.TRS_Editor TEXTAREA,.TRS_Editor SELECT,.TRS_Editor CITE,.TRS_Editor PRE,.TRS_Editor CENTER,.TRS_Editor TABLE,.TRS_Editor DIV{margin-top:0;margin-bottom:0;line-height:2;}
+.TRS_Editor FORM,.TRS_Editor FIELDSET,.TRS_Editor LEGEND,.TRS_Editor SELECT,.TRS_Editor TR,.TRS_Editor TD,.TRS_Editor TH{margin-top:0;margin-bottom:0;line-height:2;}
+.TRS_Editor BUTTON,.TRS_Editor OPTION,.TRS_Editor ADDRESS,.TRS_Editor DFN,.TRS_Editor EM,.TRS_Editor VAR,.TRS_Editor KBD,.TRS_Editor INPUT,.TRS_Editor SMALL,.TRS_Editor SAMP,.TRS_Editor SUB,.TRS_Editor SUP,.TRS_Editor SPAN,.TRS_Editor A,.TRS_Editor B,.TRS_Editor I,.TRS_Editor U,.TRS_Editor S,.TRS_Editor STRONG,.TRS_Editor LABEL,.TRS_Editor IMG,.TRS_Editor BR,.TRS_Editor FONT{margin-top:0;margin-bottom:0;text-indent:0;}
+.clear{
+    clear:both;
+    overflow:hidden;
+    height:0;
+    font-size:0;
+    line-height:0;
+}
+
+.header{
+    position: relative;
+    min-width: 1200px;
+}
+
+.bannerBox{
+    position: relative;
+    height: 700px;
+    background-color: #070824;
+}
+
+.bannerBox .imgBox{
+    position: relative;
+    width: 1920px;
+    height: 700px;
+    overflow: hidden;
+}
+.bannerTop{
+    position: relative;
+    margin: 0 auto;
+    min-width: 1200px;
+    height: 700px;
+    background-color: #070824;
+}
+.bannerImg{
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin-left: -960px;
+    width: 1920px;
+    height: 700px;
+    line-height: 0;
+    text-align: center;
+}
+.bannerBox_1 .title{
+    position: absolute;
+    left: 50%;
+    top: 130px;
+    margin-left: -250px;
+    width: 500px;
+    color: #fff;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+}
+.bannerBox_2 .title{
+    position: absolute;
+    left: 438px;
+    top: 191px;
+    color: #fff;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: left;
+}
+.bannerBox_2 .text{
+    position: absolute;
+    left: 438px;
+    top: 331px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: left;
+}
+.bannerBox_3 .title{
+    position: absolute;
+    left: 438px;
+    top: 191px;
+    color: #fff;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: left;
+}
+.bannerBox_3 .text{
+    position: absolute;
+    left: 438px;
+    top: 331px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: left;
+}
+.bannerBox_3 .bannerItemBox{
+    position: absolute;
+    left: 480px;
+    top: 446px;
+}
+.bannerBox_3 .bannerItem{
+    float: left;
+    margin: 0 8px;
+    padding-top: 32px;
+    width: 304px;
+    height: 52px;
+    color: #fff;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    background: url("../img/bgBannerItem.png") no-repeat;
+}
+.bannerBox_3 .bannerItem.highText{
+    padding-top: 22px;
+    height: 62px;
+}
+.bannerBox_4 .title{
+    position: absolute;
+    left: 438px;
+    top: 188px;
+    color: #fff;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: left;
+}
+.bannerBox_4 .bannerButton{
+    position: absolute;
+    display: block;
+    left: 439px;
+    top: 398px;
+    width: 150px;
+    height: 50px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #3098D5;
+}
+.bannerBox_5 .title{
+    position: absolute;
+    left: 438px;
+    top: 191px;
+    color: #fff;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: left;
+}
+.bannerBox_6 .title{
+    position: absolute;
+    left: 438px;
+    top: 191px;
+    color: #fff;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: left;
+}
+.bannerBox_7 .title{
+    position: absolute;
+    left: 438px;
+    top: 191px;
+    color: #fff;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: left;
+}
+.bannerDotBox{
+    position: absolute;
+    left: 50%;
+    top: 495px;
+    line-height: 0;
+    text-align: center;
+}
+.bannerDotBox .dots{
+    float: left;
+    margin-right: 5px;
+    width: 5px;
+    height: 5px;
+    cursor: pointer;
+}
+.bannerDotBox .dotLong{
+    position: absolute;
+    left: 0;
+    top: 0;
+    box-shadow: 1px 1px 10px #333333;
+}
+.companyInfo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 40px;
+    background-color: rgba(0,0,0,0.2);
+}
+.companyInfo .text{
+    position: relative;
+    display: inline-block;
+    margin-left: 30px;
+}
+.companyInfo .weixin{
+    cursor: pointer;
+}
+.companyInfo .codeImg{
+    display: none;
+    position: absolute;
+    top: 35px;
+    left: 99px;
+    z-index: 10;
+}
+
+.companyInfo i{
+    margin: 0 7px;
+    font-style: normal;
+}
+.loginBox{
+    float: right;
+    margin-right: 30px;
+}
+.indexNav{
+    position: absolute;
+    top: 55px;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    font-size: 14px;
+}
+.indexNav .logo{
+    margin-left: 30px;
+    float: left;
+}
+.indexNav .logo img{
+    width: 132px;
+}
+.indexNav .navBox{
+    float: right;
+    margin-right: 30px;
+    line-height: 36px;
+}
+.indexNav .navBox li{
+    position: relative;
+    float: right;
+    margin-left: 40px;
+    height: 60px;
+}
+.indexNav .navBox li.on{
+    color: #DFCA85;
+}
+.indexNav .navBox li.on .across{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    height: 3px;
+    background-color: #DFCA85;
+}
+.indexNav .navBox li .menuBox{
+    position: absolute;
+    display: none;
+    top: 50px;
+    right: -50px;
+    width: 800px;
+    margin-top: 10px;
+    opacity: 0;
+}
+.indexNav .navBox li .triangle{
+    position: absolute;
+    display: none;
+    left:50%;
+    bottom: -1px;
+    margin-left: -9px;
+    line-height: 0;
+    opacity: 0;
+}
+.indexNav .navBox li .menuBox a{
+    position: relative;
+    display: block;
+    float: right;
+    width: 200px;
+    height: 90px;
+    background-color: #fff;
+}
+.indexNav .navBox li .menuBox.small a{
+    width: 150px;
+}
+.indexNav .navBox li .menuBox.big a{
+    width: 180px;
+    height: 160px;
+}
+.indexNav .navBox li .menuBox.big .menuText{
+    margin-top: 20px;
+}
+.indexNav .navBox li .menuBox.big .menuIcon{
+    top: 13px;
+}
+.indexNav .navBox li .menuBox.big .text{
+    padding: 12px 20px;
+    color: #414141;
+    font-size: 12px;
+    line-height: 17px;
+}
+.indexNav .navBox li .menuBox.big .codeBox{
+    float: left;
+    margin: 9px 1px 7px 13px;
+    width: 70px;
+}
+.indexNav .navBox li .menuBox.big .codeImg{
+    margin-bottom: 8px;
+    line-height: 0;
+    width: 70px; height: auto;
+}
+.indexNav .navBox li .menuBox.big .codeImg img{
+    width: 100%; height: auto;
+}
+.indexNav .navBox li .menuBox.big .codeText{
+    color: #414141;
+    font-size: 12px;
+    text-align: center;
+    line-height: normal;
+}
+.indexNav .navBox li .menuBox a:hover{
+    background-color: #FBFBFB;
+}
+.indexNav .navBox li .menuIcon{
+    position: absolute;
+    left: 12px;
+    top: 29px;
+}
+.indexNav .navBox li .menuIcon img{
+    width:32px;
+}
+.indexNav .navBox li .menuText{
+    margin-top: 36px;
+    margin-left: 52px;
+    color: #414141;
+    font-size: 15px;
+    line-height: 20px;
+}
+.indexNav .navBox li .menuText.more{
+    margin-top: 25px;
+}
+.indexNav .line{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin: 0 30px;
+    height: 1px;
+    background-color: rgba(255,255,255,0.1);
+}
+.indexNav .navBox li .line{
+    position: absolute;
+    margin: 0;
+    width: 1px;
+    height:70px;
+    left: 0;
+    bottom: 10px;
+    background-color: rgba(189,189,189,0.2);
+}
+.indexNav .navBox li .menuBox.big .line{
+    height: 140px;
+}
+.headFooter{
+    position: absolute;
+    bottom:0;
+    width: 100%;
+}
+.newsBox{
+    width: 100%;
+    height: 40px;
+    color: #fff;
+    line-height: 40px;
+    text-align: center;
+    overflow: hidden;
+    background: url("../img/bgNewsBox.png") repeat;
+}
+.newsBox li{
+    height: 40px;
+}
+.newsBox li i{
+    margin: 0 16px;
+    font-style: normal;
+}
+.newsBox li span{
+    opacity: 0.8;
+}
+.subMenuBox{
+    position: relative;
+    width: 100%;
+    background: url("../img/bgSubMenu.png") repeat;
+}
+.subMenu{
+    margin: 0 auto;
+    width: 1175px;
+    height: 140px;
+}
+.subMenu li{
+    position: relative;
+    float: left;
+    width: 285px;
+    height: 140px;
+    text-align: left;
+    overflow-y: hidden;
+}
+.subMenu li .subIcon{
+    position: absolute;
+    left: 35px;
+    top:39px;
+}
+.subMenu li h1{
+    margin: 22px 30px 6px 110px;
+    color:#fff;
+    font-size: 18px;
+    font-weight: normal;
+}
+.subMenu li p{
+    margin-left: 110px;
+    color:#93949E;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.footer{
+    position: relative;
+    min-width: 1200px;
+}
+.contactList{
+    margin: 0 auto;
+    padding-left: 50px;
+    width: 900px;
+}
+.contactList li{
+    position: relative;
+    display: inline-block;
+    width: 235px;
+    padding-left: 60px;
+    height: 41px;
+    color: #414141;
+    font-size: 22px;
+    line-height: 41px;
+
+}
+.contactList li .icon{
+    position: absolute;
+    left: 0;
+    top: 0;
+    line-height: 0;
+}
+.profileBox{
+    position: relative;
+    width: 100%;
+    padding: 34px 0 15px;
+    background-color: #292A38;
+}
+.profileList{
+    margin: 0 auto;
+    width: 1152px;
+    height: 215px;
+}
+.profileList li{
+    position: relative;
+    float: left;
+    margin: 0 2%;
+    width: 17%;
+    color: #93949E;
+    font-size: 14px;
+    line-height: 30px;
+}
+.profileList li h1{
+    margin-bottom: 22px;
+    color: #fff;
+    font-size: 18px;
+    font-weight:normal;
+}
+.profileList li.big{
+    width: 33%;
+}
+.profileList li.big .icon{
+    position: absolute;
+    left: 27px;
+}
+.profileList li.big h1{
+    margin-left: 116px;
+}
+.profileList li.big P{
+    margin-left: 116px;
+}
+.profileList li.big .vertical{
+    position: absolute;
+    top: 0;
+    right: 30px;
+    width: 1px;
+    height: 180px;
+    background-color: #484959;
+}
+.profileBox .line{
+    margin: 0 auto;
+    clear: both;
+    width: 1152px;
+    height: 1px;
+    background-color: #484959;
+}
+.footerBottom{
+    margin: 0 auto;
+    width: 1152px;
+    position: relative;
+}
+.footerBottom .logo{
+    float: left;
+    margin-top: 23px;
+    width: 102px; height: 28px;
+}
+.footerBottom .logo img{
+    width: 100%; height: auto;
+}
+.footerBottom .textBox{
+    float: right;
+    margin-top: 18px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 17px;
+    text-align: right;
+}
+.footerBottom .textBox span{
+    margin-right: 20px;
+}
+.footerBottom .textBox span img{
+    width: 32px;
+    margin-bottom: -3px;
+    margin-right: 9px;
+}
+.main{
+
+}
+.contentBox{
+    position: relative;
+    width: 100%;
+    min-width: 1200px;
+    padding: 34px 0 55px;
+}
+.boxShadow{
+    box-shadow: 1px 3px 5px #f6f6f6;
+}
+.contentTitle{
+    margin: 0 auto 34px;
+    width: 1200px;
+    color: #414141;
+    font-size: 30px;
+    text-align: center;
+}
+.contentTitle.colorWhite{
+    color:#fff;
+}
+.contentTitle .titleIcon_1{
+    display: inline-block;
+    padding-left: 90px;
+    line-height: 60px;
+    background: url("../img/icon/menuIcon_36.png") left center no-repeat;
+}
+.contentTitle .titleIcon_2{
+    display: inline-block;
+    padding-left: 90px;
+    line-height: 60px;
+    background: url("../img/icon/menuIcon_37.png") left center no-repeat;
+}
+.contentTitle p{
+    margin-top: 10px;
+    font-size: 15px;
+    line-height: 21px;
+}
+.contentTitle p.text{
+    margin-top: 20px;
+}
+.contentTitle .line{
+    margin: 20px auto 0;
+    width: 130px;
+    height: 3px;
+    background-color: #DFCA85;
+}
+.itemList{
+    margin: 0 auto;
+    width: 1153px;
+}
+.itemList li{
+    position: relative;
+    float: left;
+    width: 265px;
+    height: 300px;
+    margin-right: 13px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.itemList .itemBox{
+    position: absolute;
+    box-shadow: 1px 3px 5px #f6f6f6;
+    background-color: #fff;
+}
+.itemList li:nth-child(1){
+    margin-left: 26px;
+}
+.itemList .itemTitle{
+    position: relative;
+    height: 180px;
+    background-color: #E6F0FD;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.itemList .itemTitle h1{
+    position: absolute;
+    top: 115px;
+    width: 100%;
+    color: #414141;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+}
+.itemList .itemIcon{
+    position: absolute;
+    top: -38px;
+    left: 46px;
+    width: 180px;
+    height: 160px;
+}
+.itemList .itemText{
+    margin: 20px 32px 25px;
+    height: 75px;
+    color: #4E4E4E;
+    font-size: 14px;
+    line-height: 24px;
+    overflow: hidden;
+}
+.newsList{
+    margin: 0 auto;
+    width: 1153px;
+}
+.newsList li{
+    float: left;
+    margin: 0 27px;
+    width: 330px;
+    height: 340px;
+    overflow: hidden;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.newsList .newsImg{
+    width: 330px;
+    height: 220px;
+    line-height: 0;
+    text-align: center;
+    overflow: hidden;
+}
+.newsList .newsImg img{
+    width: 100%; height: auto;
+}
+
+.newsList .newsDetail{
+    margin: 15px 20px;
+}
+.newsList .newsDetail h2{
+    margin-bottom: 12px;
+    color:#414141;
+    font-size: 16px;
+    height: 22px;
+    overflow: hidden;
+}
+.newsList .newsDetail p{
+    color:#4E4E4E;
+    font-size: 14px;
+    line-height: 20px;
+    height: 40px;
+    overflow: hidden;
+}
+.guildListBox{
+    position: relative;
+    margin: 50px auto 0;
+    width: 1200px;
+}
+.guildList{
+    width: 1200px;
+}
+.guildList li{
+    position: relative;
+    margin: 30px 2px;
+    width: 236px;
+    height: 350px;
+    text-align: center;
+}
+.guildList li .transfomBox{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 236px;
+    height: 350px;
+}
+.guildList li .listBgColor{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 236px;
+    height: 350px;
+    background-color: #fff;
+}
+.guildList .guildTitle{
+    position: absolute;
+    width: 100%;
+    top: 100px;
+}
+.guildList .guildIcon{
+    position: relative;
+    margin: 0 auto 30px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+}
+.guildList .guildIcon .whiteIcon{
+    width: 60px;
+}
+.guildList .guildIcon .colourIcon{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 60px;
+}
+.guildList .guildIcon img{
+    display: inline;
+}
+.guildList h2{
+    margin-bottom: 10px;
+    color:#fff;
+    font-size: 18px;
+}
+.guildList p{
+    color:#C9C9C9;
+    font-size: 13px;
+}
+.guildList .guildLogo{
+    position: absolute;
+    width: 100%;
+    top: 187px;
+    text-align: center;
+}
+.guildList .guildLogo img{
+    display: inline-block;
+}
+.guildNextArrow{
+    position: absolute;
+    right: 60px;
+    top: 180px;
+    cursor: pointer;
+    z-index: 20;
+}
+.guildPrevArrow{
+    position: absolute;
+    left: 60px;
+    top: 180px;
+    cursor: pointer;
+    z-index: 20;
+}
+.statisticsBox{
+    position: relative;
+    margin-top: -6px;
+    width: 100%;
+    background: url("../img/bgImage_1.jpg") no-repeat;
+    background-size: 100% 100%;
+    z-index: 2;
+}
+.statisticsPosition{
+    position: relative;
+    margin: 0 auto;
+    padding-top: 34px;
+    width: 1200px;
+    height: 116px;
+    text-align: center;
+}
+.statisticsPosition .leftImg{
+    position: absolute;
+    left: 17px;
+    top: -22px;
+}
+.statisticsPosition .rightImg{
+    position: absolute;;
+    right: 20px;
+    top: -12px;
+}
+.statisticsPosition p{
+    color:#fff;
+    font-size: 25px;
+    line-height: 40px;
+}
+.statisticsPosition span{
+    color:#fff;
+    font-size: 31px;
+}
+.awardsList{
+    position: relative;
+    margin: 0 auto 20px;
+    width: 1152px;
+    color: #414141;
+    font-size: 15px;
+
+    text-align: center;
+}
+.awardsList li span{
+    display: inline-block;
+    padding-left: 30px;
+    line-height: 40px;
+    background: url("../img/imgMedal.png") left 8px no-repeat;
+}
+.certificationList{
+    margin: 0 auto;
+    width: 1200px;
+    text-align: center;
+}
+.certificationList li{
+    position: relative;
+    display: inline-block;
+    margin: 0 27px;
+    width: 330px;
+    height: 290px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.certificationList .imgBox{
+    padding-top: 27px;
+    height: 193px;
+    text-align: center;
+}
+.certificationList .imgBox img{
+    display: inline; height: 100%; width: auto;
+}
+.certificationList .title{
+    margin-top: 17px;
+    color:#414141;
+    font-size: 16px;
+    line-height: 22px;
+}
+.certificationList .slick-dots{
+    bottom: -40px;
+}
+.certificationList .slick-dots li {
+    margin: 0 1px;
+    background: none;
+}
+.certificationList .slick-dots li button:before{
+    color: #4376DE;
+}
+.certificationList .slick-dots li.slick-active button:before{
+    opacity: 1;
+    color: #4376DE;
+}
+.certificationList .slick-dots li button:hover:before,
+.certificationList .slick-dots li button:focus:before
+{
+    opacity: 0.75;
+}
+.videoBox{
+    position: relative;
+    margin: 0 auto 50px;
+    width: 1200px;
+    box-shadow: 1px 10px 10px #ccc;
+}
+.videoBox .videoImg{
+    line-height: 0;
+    width: 100%;
+}
+.videoBox .videoImg img{
+    width: 100%; height: auto;
+}
+.videoBox .videoTitle{
+    position: absolute;
+    top: 29%;
+    left: 15%;
+    width: 70%;
+    color: #fff;
+    text-align: center;
+}
+.videoBox .videoTitle h1{
+    margin-bottom: 13px;
+    font-size: 30px;
+    font-weight: normal;
+}
+.videoBox .videoTitle p{
+    font-size: 15px;
+}
+.clientSayListBox{
+    position: relative;
+    margin: 40px auto;
+    width: 1200px;
+}
+.clientSayList{
+    position: relative;
+    width: 1200px;
+    height: 400px;
+}
+
+.clientSayList .item{
+    position: relative;
+    margin: 50px 0;
+    width: 460px;
+    height: 300px;
+}
+.clientSayList .transfomBox{
+    position: absolute;
+    left: 90px;
+    width: 280px;
+    height: 300px;
+    background-color: #fff;
+}
+.clientSayList .item .logo{
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
+.clientSayList .item .title{
+    position: absolute;
+    top: 190px;
+    left: 0;
+    width: 100%;
+    color: #414141;
+    font-size: 18px;
+    text-align: center;
+}
+.clientSayList .item .text{
+    margin: 90px 25px 0;
+    padding: 20px 45px 0;
+    height: 200px;
+    color:#4E4E4E;
+    font-size: 14px;
+    line-height: 22px;
+    overflow: hidden;
+    background: url("../img/bgText.png") left top no-repeat;
+    opacity: 0;
+}
+.clientSayList .listBgColor{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #292A38;
+    opacity: 0.9;
+}
+.clientSayNextArrow{
+    position: absolute;
+    right: 60px;
+    top: 180px;
+    cursor: pointer;
+    z-index: 20;
+}
+.clientSayPrevArrow{
+    position: absolute;
+    left: 60px;
+    top: 180px;
+    cursor: pointer;
+    z-index: 20;
+}
+
+.clientSayNavList{
+    position: relative;
+    margin: 0 auto;
+    width: 440px;
+}
+.clientSayNavList .itemBox{
+    position: relative;
+    margin: 5px 10px;
+    width: 70px;
+    height: 70px;
+}
+.clientSayNavList .transfomBox{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 70px;
+    height: 70px;
+}
+
+.newProductList{
+    position: relative;
+    margin: 0 auto 10px;
+    width: 1152px;
+    height: 290px;
+}
+.newProductList .itemBox{
+    margin: 5px;
+    height: 290px;
+    text-align: center;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.newProductList .imgBox{
+    width: 280px;
+    height: 220px;
+}
+.newProductList .imgBox img{
+    width: 100%;
+    height: 100%;
+}
+.newProductList .title{
+    height: 70px;
+    color:#414141;
+    font-size: 16px;
+    line-height: 70px;
+    text-align: center;
+    background-color: #fff;
+}
+.newProductList .slick-dots{
+    bottom: -40px;
+}
+.newProductList .slick-dots li {
+    margin: 0 1px;
+}
+.newProductList .slick-dots li button:before{
+    color: #4376DE;
+}
+.newProductList .slick-dots li.slick-active button:before{
+    opacity: 1;
+    color: #4376DE;
+}
+.newProductList .slick-dots li button:hover:before,
+.newProductList .slick-dots li button:focus:before
+{
+    opacity: 0.75;
+}
+.myClientNav{
+    position: relative;
+    margin: 0 auto 25px;
+    width: 1200px;
+    text-align: center;
+}
+.myClientNav .triangle{
+    position: absolute;
+    left: 72px;
+    bottom: -29px;
+}
+.myClientNav li{
+    display:inline-block;
+    padding: 0 20px;
+    width: 80px;
+    font-size: 16px;
+    line-height: 16px;
+    border-right: #414141 1px solid;
+}
+.myClientNav li span{ cursor: pointer; }
+.myClientNav li:last-child{
+    border-right: none;
+}
+.myClientNav li.on{
+    color:#4376DE;
+    font-size: 19px;
+}
+.myClientList{
+    position: relative;
+    padding: 50px 0 55px;
+    width: 100%;
+    background-color: #fff;
+}
+.myClientDetail{
+    display: none;
+    position: relative;
+    margin: 0 auto;
+    width: 1200px;
+}
+.myClientDetail li{
+    position: relative;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 280px;
+    height: 140px;
+    text-align: center;
+    border: #EAEAEA 1px solid;
+}
+.myClientDetail li:nth-child(4n){
+    margin-right: 0;
+}
+.myClientDetail li .logo{
+    margin-top: 15px;
+}
+.myClientDetail li .logo img{
+    width: 180px;
+    height: 80px;
+}
+.myClientDetail li .title{
+    position: absolute;
+    bottom: 12px;
+    width: 100%;
+    color: #414141;
+    font-size: 14px;
+}
+.caseListBox{
+    position: relative;
+    margin: 30px auto;
+    width: 1200px;
+}
+.caseList{
+    position: relative;
+    width: 1200px;
+    height: 500px;
+}
+.caseList .item{
+    position: relative;
+    margin: 50px 0;
+    width: 460px;
+    height: 400px;
+
+}
+.caseList .item .transfomBox{
+    position: absolute;
+    left: 90px;
+    width: 280px;
+    height: 400px;
+    background-color: #fff;
+}
+.caseList .item .logo{
+    position: absolute;
+    top: 125px;
+    left: 50px;
+}
+.caseList .item .title{
+    position: absolute;
+    top: 210px;
+    left: 50px;
+    width: 180px;
+    color: #414141;
+    font-size: 18px;
+    text-align: center;
+}
+.caseList .centerItem{
+    width: 840px;
+    height: 500px;
+    margin-left: -100px;
+    margin-right: -100px;
+    margin-top: -60px;
+    z-index: 10;
+}
+.caseList .centerItem .logo{
+    top: 32px;
+    left: 30px;
+}
+.caseList .centerItem .title{
+    top: 122px;
+    left: 30px;
+    width: 180px;
+}
+.caseList .topInfo{
+    margin: 25px 20px 30px;
+    padding: 20px 0 12px;
+    border-bottom: #D8D8D8 1px solid;
+    background: url("../img/bgText.png") 208px 10px no-repeat;
+}
+.caseList .topInfo h1{
+    margin-left: 228px;
+    margin-bottom: 10px;
+    color:#414141;
+    font-size: 18px;
+}
+.caseList .topInfo p{
+    margin-left: 228px;
+    width: 510px;
+    height: 88px;
+    color:#4E4E4E;
+    font-size: 14px;
+    line-height: 22px;
+    overflow: hidden;
+}
+.caseList .caseSubList{
+    width: 800px;
+    margin: 0 auto;
+}
+.caseList .caseSubList .subItem{
+    position: relative;
+    float: left;
+    width: 200px;
+    height: 240px;
+}
+.caseList .subItem .subTransfomBox{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 240px;
+    box-shadow: 1px 2px 8px #e4e4e4;
+    background-color: #F5F5F5;
+    overflow: hidden;
+}
+.caseList .caseSubList .subTitle{
+
+    text-align: center;
+    background-color: #292A38;
+}
+.caseList .caseSubList .subTitle span{
+    display: inline-block;
+    padding-left: 46px;
+    padding-right: 10px;
+    color:#fff;
+    font-size: 16px;
+    line-height: 60px;
+}
+.caseList .subIcon_1{
+    background: url("../img/icon/menuIcon_24.png") left center no-repeat;
+}
+.caseList .subIcon_2{
+    background: url("../img/icon/menuIcon_25.png") left center no-repeat;
+}
+.caseList .subIcon_3{
+    background: url("../img/icon/menuIcon_26.png") left center no-repeat;
+}
+.caseList .subIcon_4{
+    background: url("../img/icon/menuIcon_27.png") left center no-repeat;
+}
+.caseList .caseSubList .subItem p{
+    color: #414141;
+    font-size: 14px;
+    line-height: 22px;
+}
+.caseList .caseSubList .subItem .subText{
+    padding: 20px 20px 0 20px;
+    height: 110px;
+    overflow: hidden;
+}
+.caseList .caseBgColor{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #292A38;
+}
+.caseListNextArrow{
+    position: absolute;
+    right: 60px;
+    top: 230px;
+    cursor: pointer;
+    z-index: 20;
+}
+.caseListPrevArrow{
+    position: absolute;
+    left: 60px;
+    top: 230px;
+    cursor: pointer;
+    z-index: 20;
+}
+.newsItemList{
+    position: relative;
+    margin: 0 auto 20px;
+    padding-bottom: 1px;
+    width: 1200px;
+    background-color: #fff;
+}
+.newsItemList .newsItemTitle{
+    padding: 0 34px;
+    height: 60px;
+    background-color: #252636;
+}
+.newsItemList .newsItemTitle .newsTab{
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 35px;
+    padding-top: 18px;
+    color: #93949E;
+    font-size: 16px;
+}
+.newsItemList .newsItemTitle .newsTab.on{
+    margin-right: 57px;
+    color: #fff;
+    font-size: 18px;
+}
+.newsItemList .newsItemTitle .tabLineColor_1{
+    display: inline-block;
+    margin-right: 8px;
+    width: 3px;
+    height: 12px;
+    background-color:#E8B5A7;
+}
+.newsItemList .newsItemTitle .tabLineColor_2{
+    display: inline-block;
+    margin-right: 8px;
+    width: 3px;
+    height: 12px;
+    background-color:#AFC0EA;
+}
+.newsItemList .newsItemTitle .tabLineColor_3{
+    display: inline-block;
+    margin-right: 8px;
+    width: 3px;
+    height: 12px;
+    background-color:#C6E0B3;
+}
+.newsItemList .newsItemTitle .tabLineColor_4{
+    display: inline-block;
+    margin-right: 8px;
+    width: 3px;
+    height: 12px;
+    background-color:#C8B2E1;
+}
+.newsItemList .newsItemTitle .tabLineColor_5{
+    display: inline-block;
+    margin-right: 8px;
+    width: 3px;
+    height: 12px;
+    background-color:#3098D5;
+}
+.newsItemTitle .triangle{
+    position: absolute;
+    left: 60px;
+    top: 50px;
+}
+.newsItemList .newsItemRow{
+    margin: 0 24px;
+    padding: 0 6px;
+    color: #414141;
+    font-size: 14px;
+    line-height: 60px;
+    border-bottom: #F8FAFB 1px solid;
+}
+.newsItemList .newsItemRow:last-child{
+    border-bottom:none;
+}
+.newsItemList .newsItemRow a:hover{
+    color: #4376DE;
+}
+.newsItemList .newsItemRow span{
+    float: right;
+    font-size: 12px;
+    color: #A6A6A6;
+}
+
+.newsItemList .newsLineColor_1{
+    border-left:#E8B5A7 3px solid;
+}
+.newsItemList .newsLineColor_2{
+    border-left:#AFC0EA 3px solid;
+}
+.newsItemList .newsLineColor_3{
+    border-left:#C6E0B3 3px solid;
+}
+.newsItemList .newsLineColor_4{
+    border-left:#C8B2E1 3px solid;
+}
+.newsItemList .newsLineColor_5{
+    border-left:#3098D5 3px solid;
+}
+
+.newsItemList h1.line_Red{
+    border-bottom: #B94141 3px solid;
+}
+.newsItemList h1.line_Blue{
+    border-bottom: #3098D5 3px solid;
+}
+.newsItemList h1.line_Green{
+    border-bottom: #90B941 3px solid;
+}
+.newsItemList h1.line_Brown{
+    border-bottom: #B97441 3px solid;
+}
+.pageNav{
+    position: relative;
+    margin: 30px auto;
+    text-align: center;
+}
+.pageNav .pageItem{
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    color: #414141;
+    font-size: 14px;
+    line-height: 50px;
+    border:#F7F9FB 1px solid;
+    background-color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.pageNav .pageArrow{
+    font-size: 16px;
+}
+.pageNav .pageItem.on{
+    color:#fff;
+    background-color: #4376DE;
+    border:#4376DE 1px solid;
+}
+.pageNav .pageItem:hover{
+    background-color: #E6ECF1;
+    border:#E6ECF1 1px solid;
+}
+.pageNav .pageItem.off:hover{
+    background-color: #fff;
+    border:#F7F9FB 1px solid;
+}
+.pageNav .pageItem.on:hover{
+    background-color: #4376DE;
+    border:#4376DE 1px solid;
+}
+
+.pageNav .pageLeftArrow{
+    background-image: url("../img/imgLeftArrow_on.png");
+
+}
+.pageNav .pageLeftArrowGroup{
+    background-image: url("../img/imgLeftArrowGroup_on.png");
+}
+.pageNav .pageLeftArrow.off{
+    background-image: url("../img/imgLeftArrow_off.png");
+}
+.pageNav .pageLeftArrowGroup.off{
+    background-image: url("../img/imgLeftArrowGroup_off.png");
+}
+.pageNav .pageRightArrow{
+    background-image: url("../img/imgRightArrow_on.png");
+}
+.pageNav .pageRightArrowGroup{
+    background-image: url("../img/imgRightArrowGroup_on.png");
+}
+.pageNav .pageRightArrow.off{
+    background-image: url("../img/imgRightArrow_off.png");
+}
+.pageNav .pageRightArrowGroup.off{
+    background-image: url("../img/imgRightArrowGroup_off.png");
+}
+
+.aboutDetail{
+    margin: 0 auto;
+    width: 1152px;
+}
+.aboutDetailBox{
+    position: relative;
+    float: left;
+    margin: 0 6px 20px;
+    width: 560px;
+    height: 320px;
+    border-radius: 8px;
+}
+.aboutDetailBox .transfomBox{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 560px;
+    height: 320px;
+    overflow: hidden;
+    background-color: #fff;
+}
+.aboutDetailBox .title{
+    position: relative;
+    height: 120px;
+    background-color: #F8FAFB;
+}
+.aboutDetailBox .icon{
+    position: absolute;
+    top: 10px;
+    left: 30px;
+}
+.aboutDetailBox .line{
+    position: absolute;
+    left: 260px;
+    bottom: 30px;
+    width: 33px;
+    height: 2px;
+    background-color: #4376DE;
+}
+.aboutDetailBox h1{
+    color: #414141;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 120px;
+    text-align: center;
+}
+.aboutDetailBox .infoBox{
+    position: relative;
+    padding: 30px 50px;
+    height: 140px;
+}
+.aboutDetailBox .infoBox p{
+    color: #4E4E4E;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.aboutDetailBox .infoBox .buttonAbout{
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    margin-left: -60px;
+    width: 118px;
+    height: 38px;
+    color: #4E4E4E;
+    font-size: 14px;
+    line-height: 38px;
+    text-align: center;
+    border: #D6E4FF 1px solid;
+    border-radius: 20px;
+    background-color: #fff;
+}
+.aboutDetailBox .infoBox .buttonAbout:hover{
+    color: #fff;
+    border: #4376DE 1px solid;
+    background-color: #4376DE;
+}
+.aboutDetailBox .infoBox .left{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+.aboutDetailBox .infoBox .right{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.aboutDetailBox .infoBox h2{
+    margin-bottom: 10px;
+    color: #4E4E4E;
+    font-size: 16px;
+    font-weight:normal;
+}
+.aboutDetailBox .infoBox p{
+    color: #4E4E4E;
+    font-size: 14px;
+}
+
+.aboutDetailBox.on{
+    position: relative;
+    margin: -10px -8px -10px 0;
+    width: 580px;
+    height: 340px;
+    box-shadow: 1px 5px 10px #ccc;
+    z-index: 10;
+}
+.aboutDetailBox.on .title{
+    background-color: #4376DE;
+}
+.aboutDetailBox.on h1{
+    color: #fff;
+}
+.aboutDetailBox.on .line{
+    left: 275px;
+    background-color: #fff;
+}
+.aboutDetailBox.on .infoBox{
+    height: 160px;
+}
+.companyList{
+    margin: 0 auto;
+    width: 1152px;
+}
+.companyList .item{
+    position: relative;
+    margin-right: -115px;
+    float: right;
+    width: 260px;
+    height: 370px;
+}
+.companyList .item:first-child{
+    margin-right: 10px;
+}
+.companyList .item .transfomBox{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 260px;
+    height: 370px;
+    border-radius: 5px;
+    background-color: #F5F5F5;
+}
+.companyList .item .title{
+    position: relative;
+    height: 60px;
+    background-color: #292A38;
+}
+.companyList .item .title p{
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+}
+.companyList .item .highTitle{
+    padding: 10px 0;
+}
+.companyList .item .text{
+    width: 260px;
+    height: 310px;
+    box-shadow: 1px 2px 8px #e4e4e4;
+}
+.companyList .item .text p{
+    padding: 10px 25px 0;
+    height: 260px;
+    color: #414141;
+    font-size: 14px;
+    line-height: 22px;
+    overflow: hidden;
+}
+.catchwordBox{
+    margin: 0 auto 60px;
+    width: 960px;
+    height: 134px;
+    text-align: center;
+}
+.catchwordBox .item{
+    position: relative;
+    float: left;
+    margin: 0 8px;
+    width: 304px;
+    height: 134px;
+    background: url("../img/imgFrame.png") no-repeat;
+}
+.catchwordBox .item h1{
+    margin-top: 30px;
+    color: #DFCA85;
+    font-size: 20px;
+    font-weight: normal;
+}
+.catchwordBox .item p{
+    margin-top: 15px;
+    color: #fff;
+    font-size: 15px;
+}
+.catchwordBox .item p.highText{
+    margin-top: 5px;
+}
+.cultureListBox{
+    position: relative;
+    margin: 60px auto 40px;
+    width: 1152px;
+}
+.cultureList{
+    position: relative;
+    width: 1152px;
+    height: 360px;
+}
+.cultureList .item{
+    position: relative;
+    width: 466px;
+    height: 360px;
+}
+.cultureList .item .transfomBox{
+    position: absolute;
+    left: 133px;
+    top: 40px;
+    width: 200px;
+    height: 280px;
+    background-color: #fff;
+}
+.cultureList .item .imgBox{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 280px;
+}
+
+.cultureList .infoBox{
+    position: absolute;
+    left: 275px;
+    top: 45px;
+    width: 470px;
+    opacity: 0;
+}
+
+.cultureList .infoBox h1{
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    color: #414141;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 25px;
+    border-bottom: #D8D8D8 1px solid;
+}
+.cultureList .infoBox p{
+    color: #4E4E4E;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.cultureListNav{
+    position: relative;
+    padding-left: 20px;
+    margin: 30px auto;
+    width: auto;
+    height: 60px;
+}
+.cultureListNav .item{
+    float: left;
+    margin-right: 10px;
+    width: 60px;
+    height: 60px;
+    opacity: 0.3;
+}
+.cultureListNav .item:last-child{
+    margin-right: 0;
+}
+.cultureListNav .item img{
+    width: 60px;
+    height: 60px;
+}
+.cultureBgColor{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 280px;
+    opacity: 0.9;
+    background-color: #292A38;
+}
+.cultureListNextArrow{
+    position: absolute;
+    right: 60px;
+    top: 160px;
+    cursor: pointer;
+    z-index: 20;
+}
+.cultureListPrevArrow{
+    position: absolute;
+    left: 60px;
+    top: 160px;
+    cursor: pointer;
+    z-index: 20;
+}
+
+/*大事件*/
+.incidentNav{
+    margin: 0 auto;
+    width: 600px;
+    text-align: center;
+}
+.incidentNav .tab{
+    float: left;
+    width: 300px;
+    height: 46px;
+    color: #657988;
+    font-size: 16px;
+    line-height: 46px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #D9E4EC;
+    cursor: pointer;
+}
+.incidentNav .tab.on{
+    margin-top: -10px;
+    height: 56px;
+    color: #fff;
+    font-size: 22px;
+    line-height: 56px;
+    background-color: #4376DE;
+}
+.incidentBox{
+    position: relative;
+    padding: 35px 0;
+    width: 100%;
+    min-width: 1200px;
+    background-color: #fff;
+}
+.incidentBox.honorBox{
+    display: none;
+    padding-bottom: 80px;
+}
+.incidentLine{
+    position: absolute;
+    top: 45px;
+    left: 50%;
+    margin-left: -1px;
+    width: 2px;
+    height: 100px;
+    background-color: #EFF3F6;
+}
+.incidentBox.honorBox .item{
+    position: relative;
+    margin: 0 auto;
+    width: 1200px;
+    height: 100px;
+}
+.incidentBox.honorBox .logoBox{
+    position: absolute;
+    left: 50%;
+    top: 10px;
+    margin-left: -41px;
+    width: 82px;
+    height: 82px;
+    line-height: 0;
+    border-radius: 50px;
+    overflow: hidden;
+}
+.incidentBox.honorBox .textBox{
+    position: absolute;
+    top: 30px;
+    right: 660px;
+    text-align: right;
+}
+.incidentBox.honorBox .item.right .textBox{
+    position: absolute;
+    top: 30px;
+    left: 660px;
+    right: auto;
+    text-align: left;
+}
+.incidentBox.honorBox .textBox .time{
+    margin-bottom: 4px;
+    color: #A6A6A6;
+    font-size: 12px;
+}
+.incidentBox.honorBox .textBox .text{
+    color: #414141;
+    font-size: 14px;
+}
+.incidentBox.honorBox .photoLayer{
+    position: absolute;
+    right: 657px;
+    top: 80px;
+    padding: 10px;
+    line-height: 0;
+    border: #4376DE 1px solid;
+    background-color: #EFF3F6;
+    opacity: 0;
+}
+.incidentBox.honorBox .photoLayer img{
+    width: 100%;
+    max-width: 300px;
+}
+.incidentBox.honorBox .photoLayer .triangle{
+    position: absolute;
+    top: -1px;
+    right: -12px;
+    width: 12px;
+    height: 10px;
+    background: url("../img/imgPhotoLayerL.png") no-repeat;
+}
+.incidentBox.honorBox .item.right .photoLayer{
+    left: 657px;
+    right: auto;
+}
+.incidentBox.honorBox .item.right .photoLayer .triangle{
+    left: -12px;
+    background: url("../img/imgPhotoLayerR.png") no-repeat;
+}
+.incidentBox.developBox{
+
+}
+.incidentBox .developTop{
+    margin-bottom: 40px;
+}
+.incidentBox .developTop .item{
+    position: relative;
+    margin: 0 auto;
+    width: 1200px;
+    height: 100px;
+}
+.incidentBox .developTop .developLine{
+    position: absolute;
+    top: 40px;
+    left: 209px;
+    width: 341px;
+    height: 21px;
+    background: url("../img/imgDevelopLineL.png") no-repeat;
+}
+.incidentBox .developTop .logoBox{
+    position: absolute;
+    left: 50%;
+    top: 8px;
+    margin-left: -42px;
+
+}
+.incidentBox .developTop .textBox{
+    position: absolute;
+    left: 235px;
+    top: 12px;
+    width: 280px;
+    text-align: left;
+}
+.incidentBox .developTop .textBox .time{
+    margin-bottom: 18px;
+    color: #4376DE;
+    font-size: 23px;
+    line-height: 30px;
+}
+.incidentBox .developTop .textBox .text{
+    color: #414141;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.incidentBox .developTop .item.right .textBox{
+    left: auto;
+    right: 235px;
+    text-align: right;
+}
+
+.incidentBox .developTop .item.right  .developLine{
+    left:auto;
+    right: 209px;
+    background: url("../img/imgDevelopLineR.png") no-repeat;
+}
+.incidentBox .developBottom{
+    position: relative;
+}
+.incidentBox .developBottom .incidentLine{
+    top: 70px;
+}
+.incidentBox .developTitle{
+    position: relative;
+    margin-bottom: 30px;
+    color: #4376DE;
+    font-size: 20px;
+    text-align: center;
+}
+.incidentBox .developTitle .titleLine{
+    position: absolute;
+    margin-left: -20px;
+    left: 50%;
+    bottom: -10px;
+    width: 40px;
+    height: 3px;
+    background: #4376DE;
+}
+.incidentBox .developBottom .item{
+    position: relative;
+    margin: 0 auto;
+    width: 1200px;
+    height: 100px;
+}
+.incidentBox .developBottom .logoText{
+    position: absolute;
+    left: 50%;
+    top: 8px;
+    margin-left: -42px;
+    width: 84px;
+    height: 84px;
+    background: url("../img/imgDevelopTab.png") no-repeat;
+}
+.incidentBox .developBottom .logoText p{
+    position: absolute;
+    left: 0;
+    top: 30px;
+    width: 84px;
+    color: #4376DE;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
+.incidentBox .developBottom .logoText span{
+    font-size: 22px;
+}
+.incidentBox .developBottom .logoDot{
+    position: absolute;
+    left: 50%;
+    top: 38px;
+    margin-left: -11px;
+    width: 21px;
+    height: 21px;
+    background: url("../img/imgDevelopDot.png") no-repeat;
+}
+.incidentBox .developBottom .textBox{
+    position: absolute;
+    top: 30px;
+    right: 660px;
+    text-align: right;
+}
+.incidentBox .developBottom .item.right .textBox{
+    position: absolute;
+    top: 18px;
+    left: 660px;
+    right: auto;
+    text-align: left;
+}
+.incidentBox .developBottom .textBox .time{
+    margin-bottom: 4px;
+    color: #A6A6A6;
+    font-size: 12px;
+}
+.incidentBox .developBottom .textBox .text{
+    color: #414141;
+    font-size: 14px;
+}
+
+/*大事件*/
+.staffList{
+    position: relative;
+
+    width: 1184px;
+    overflow: hidden;
+}
+.staffList .item{
+    float: left;
+    margin: 15px 15px;
+    padding: 20px;
+    width: 520px;
+    height: 210px;
+    border: #EFF3F6 1px solid;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.staffList .infoBox{
+    position: relative;
+    height: 100px;
+    margin-bottom: 20px;
+}
+.staffList .infoBox .photo{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    overflow: hidden;
+}
+.staffList .infoBox .name{
+    position: absolute;
+    padding-bottom: 18px;
+    width: 400px;
+    top: 60px;
+    left: 124px;
+    color: #414141;
+    font-size: 18px;
+    border-bottom: #F8FAFB 1px solid;
+    text-align: left;
+}
+.staffList .infoBox .photo img{
+
+    width: 100%;
+    height: 100%;
+}
+.staffList .infoBox .name span{
+    margin-left: 14px;
+    color: #4376DE;
+    font-size: 14px;
+}
+.staffList  .introduce{
+    color: #414141;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: left;
+}
+.joinList{
+    margin: 0 auto;
+    width: 1152px;
+}
+.joinList .item{
+    margin: 0 10px 5px;
+    width: 1132px;
+    border-radius: 5px;
+    background-color: #fff;
+    overflow: hidden;
+    cursor: pointer;
+}
+.joinList .infoBox{
+    position: relative;
+    padding: 20px 30px 15px;
+}
+.joinList .infoBox .title{
+    margin-bottom: 5px;
+    color: #414141;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 22px;
+}
+.joinList .infoBox .brief{
+    color: #4E4E4E;
+    font-size: 12px;
+    line-height: 17px;
+}
+.joinList .infoBox .time{
+    position: absolute;
+    right: 30px;
+    top: 32px;
+    color: #A6A6A6;
+    font-size: 12px;
+}
+.joinList .detailText{
+    display: none;
+    padding: 20px 30px 30px;
+    color: #4E4E4E;
+    line-height: 24px;
+}
+.joinList .detailText h2{
+    font-size: 16px;
+}
+.joinList .detailText p{
+    font-size: 14px;
+}
+.joinList .buttonApply{
+    position: absolute;
+    display: none;
+    right: 30px;
+    top: 29px;
+    width: 120px;
+    height: 40px;
+    color: #4376DE;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #fff;
+}
+.joinList .item.on{
+    position: relative;
+    margin: -10px 0 -5px;
+    width: 1152px;
+    box-shadow: 1px 5px 10px #ccc;
+    z-index: 10;
+}
+.joinList .item.on .buttonApply{
+    display: block;
+}
+.joinList .item.on .infoBox{
+    padding: 10px 30px;
+    background-color: #4376DE;
+}
+.joinList .item.on .infoBox .title{
+    margin-bottom: 5px;
+    color: #fff;
+    font-size: 20px;
+    line-height: 28px;
+}
+.joinList .item.on .infoBox .brief{
+    color: #fff;
+}
+.joinList .item.on .infoBox .time{
+    position: static;
+    margin-bottom: 10px;
+    color: #9ABAF9;
+}
+.joinList .item.on .detailText{
+    display: block;
+    border: #ccc 1px solid;
+}
+.addressBox{
+    margin: 0 auto;
+    padding: 30px;
+    width: 1090px;
+    border-radius: 5px;
+    border: #EFF3F6 1px solid;
+    background-color: #fff;
+}
+.addressBox .addressDetail{
+    float: left;
+    width: 570px;
+}
+.addressBox .addressDetail h1{
+    margin-bottom: 30px;
+    color: #414141;
+    font-size: 18px;
+}
+.addressBox .addressDetail p{
+    color: #414141;
+    font-size: 16px;
+    line-height: 30px;
+}
+.addressBox .addressDetail .line{
+    margin: 36px 0;
+    width: 560px;
+    height: 1px;
+    background-color: #EAEAEA;
+}
+.addressBox .addressMap{
+    float: right;
+}
+.codeList{
+    margin: 0 auto;
+    width: 540px;
+}
+.codeList .item{
+    margin: 0 45px;
+    float: left;
+    width: 180px;
+    text-align: center;
+}
+.codeList .code{
+    margin-bottom: 18px;
+    width: 180px;
+    height: 180px;
+}
+.codeList .code img{
+    width: 100%; height: auto;
+}
+.codeList .item p{
+    color: #414141;
+    font-size: 14px;
+}
+.articleBox{
+    position: relative;
+    margin: 0 auto;
+    padding: 50px 0 20px;
+    width: 1200px;
+}
+.articleBox .articleNav{
+    padding: 0 34px;
+    height: 60px;
+    color: #414141;
+    font-size: 14px;
+    line-height: 60px;
+    background-color: #F8FAFB;
+}
+.articleBox .articleDetail{
+    padding: 40px 150px;
+    background-color: #fff;
+}
+.articleBox .articleDetail .title{
+    margin-bottom: 40px;
+    text-align: center;
+    border-bottom: #F8FAFB 1px solid;
+}
+.articleBox .articleDetail .title h1{
+    margin-bottom: 18px;
+    color: #414141;
+    font-size: 30px;
+}
+.articleBox .articleDetail .title .time{
+    margin-bottom: 22px;
+    color: #A6A6A6;
+    font-size: 12px;
+}
+.articleBox .articleDetail .text{
+    color: #414141;
+    font-size: 16px;
+    line-height: 24px;
+    text-indent: 2em;
+}
+.articleBox .articleDetail .imgBox{
+    width: 670px;
+    margin: 30px auto;
+    text-align: center;
+}
+.articleBox .articleDetail .imgBox img{
+    width: 100%; height: auto;
+}
+.articleBox .articleDetail .imgBox .imgText{
+    margin-top: 15px;
+    color: #A6A6A6;
+    font-size: 12px;
+}
+.articleBox .articleDetail h2{
+    margin-bottom: 22px;
+    color: #414141;
+    font-size: 18px;
+}
+
+
+/*背景图片样式*/
+.bgBlack{
+    background-color: #eff3f6;
+}
+.contentBox.bgMyClient{
+    padding-bottom: 0;
+    background-color: #eff3f6;
+}
+.contentBox.bgImg_1 {
+    background: url("../img/bgBanner_1.jpg") center center no-repeat;
+    background-size: 100% 100%;
+    background-color: #484959;
+}
+.contentBox.bgImg_2 {
+    background: url("../img/bgBanner_2.jpg") center center no-repeat;
+    background-size: 100% 100%;
+    background-color: #484959;
+}
+.contentBox.bgImg_3 {
+    background: url("../img/bgBanner_3.jpg") center center no-repeat;
+    background-size: 100% 100%;
+    background-color: #484959;
+}
+.contentBox.bgImg_4 {
+    background: url("../img/bgBanner_4.jpg") center center no-repeat;
+    background-size: 100% 100%;
+    background-color: #484959;
+}
+
+/*按钮样式*/
+.buttonPlay{
+    position: absolute;
+    left: 50%;
+    top: 59%;
+    margin-left: -50px;
+    margin-top: -50px;
+}
+.buttonStyle{
+    display: block;
+    margin: 30px auto;
+    width: 180px;
+    height: 48px;
+    color: #4376DE;
+    font-size: 14px;
+    line-height: 48px;
+    text-align: center;
+    border: #4376DE 1px solid;
+    border-radius: 25px;
+}
+.buttonStyle:hover{
+    color: #fff;
+    border: #4376DE 1px solid;
+    background-color: #4376DE;
+}
+
+
+/*新闻的内页*/
+.zhw h2{
+    text-align: center;
+}
+.zhw .date{
+    text-align: center; border-bottom: #F8FAFB 1px solid; margin-bottom: 20px; padding-bottom: 20px;
+}
+#img-content #meta_content{text-align: center}
+#img-content #activity-name{ text-align: center}
+
+
+/*视频新增*/
+.videoContent{
+    width: 100%; height: 100%; display: none; position: absolute; top: 0; left: 0;
+}
+.videoContent video{
+    width: 100%; height: 100%; background-color: #000000;
+}
+.videoHtml{
+    cursor: pointer;
+}
+
+/*新增备案信息*/
+.backup{
+    width: 50%; position: absolute; top: 12px; left: 25%; text-align: center;
+    color: #fff;
+    font-size: 12px;
+    line-height: 22px;
+}
+.backup p img{width: 30px; height: auto; margin-right: 8px;}
+.backup p img.ic0{ margin-bottom: -5px;width: 20px;}
+.backup p img.ic1{ margin-bottom: -3px}
+
+/*新增地图*/
+.iw_poi_title {color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap}
+.iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word}
+#dituContent{width:500px;height:500px;}
